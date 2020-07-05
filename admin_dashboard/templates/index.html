@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>LMS Admin</h1>
+    <p class="lead">Library management system admin dashboard allows an admin user add books to catalogue, remove books and generate data visualization reports for books borrowed</p>
+    <p><a href="{{ url_for('site.login') }}" class="btn btn-primary btn-large">Login here &raquo;</a></p>
+</div>
+
+{% endblock %}
